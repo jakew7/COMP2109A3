@@ -1,0 +1,263 @@
+body {
+  	color: black;
+  	padding: 2%;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+
+}
+
+/* text header with drop shadow */
+h1 {
+	font-family: 'Kanit', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #FFFFFF;
+	text-shadow: 3px 5px 2px black;
+    
+}
+
+/* product page edit */
+.woocommerce-Price-amount {
+	font-family: 'Kanit', sans-serif;
+	color: limegreen;
+	font-size: 35px;
+	
+}
+
+.woocommerce-Price-currencySymbol {
+	color: limegreen;
+}
+
+.products {
+	padding-bottom: 200px;
+background-color: #e0e0e0;
+opacity: 0.9;
+background-image:  radial-gradient(#b70000 2px, transparent 2px), radial-gradient(#b70000 2px, #e0e0e0 2px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+}
+
+.woocommerce-loop-product__title {
+	color: black;
+}
+
+.woocommerce-product-gallery__image{
+vertical-align: middle;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+	
+}  
+
+.input-text {
+	background-color: whitesmoke;
+	color: red;
+	margin-top: 300px;
+}
+
+.input-text.qty.text  {
+	color: red;
+	font-size: 30px;
+	margin-top: 300px;
+}
+
+button.single_add_to_cart_button.button.alt{
+	box-shadow: 4px 17px 25px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:30px;
+	border:3px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:29px 65px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+	margin-bottom: 500px;
+	margin-top: 300px;
+}
+
+
+
+
+
+/* prodcut page */
+
+
+
+
+/* masthead text align */
+.masthead div h2{
+	font-family: 'Kanit', sans-serif;
+	  text-align: center;
+	  color: black;
+	  text-shadow: 3px 2px 17px rgba(0, 0, 0, 1);
+	  padding-top: 100px;
+}
+
+/* mastehad background image */
+.masthead {
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 667px;
+	background-size: cover;
+	padding: 10%;
+
+}
+
+
+/* icon image */
+.row a img{
+  	width: 50px;
+	float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+/* row one */
+.row-one{
+	  padding: 8%;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 18px;
+
+}
+
+/* row h3 */
+.row-one h3 {
+	font-family: 'Kanit', sans-serif;
+	  font-size: 50px;
+}
+
+/* row one image */
+.row-one div img{
+		-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+		box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	  	width: 800px;
+		height: 500px
+
+}
+
+/* row two */
+.row-two{
+	
+	  padding: 8%;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 18px;
+}
+
+/* row h3 */
+.row-two h3 {
+	font-family: 'Kanit', sans-serif;
+	  font-size: 50px;
+}
+
+/* row two image */
+.row-two div img{
+		-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+		box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	  	width: 800px;
+		height: 500px
+
+}
+
+/* row three */
+.row-three{
+	
+	  padding: 8%;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 18px;
+}
+
+/* row h3 */
+.row-three h3 {
+	font-family: 'Kanit', sans-serif;
+	  font-size: 50px;
+}
+
+/* row hree image */
+.row-three div img{
+		-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+		box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	 	 width: 800px;
+		height: 500px
+	
+}
+
+
+
+/* navbar */
+ul {
+	font-family: 'Kanit', sans-serif;
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+}
+
+li {
+  	float: left;
+}
+
+li a {
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 25px;
+}
+
+li a:hover {
+	  color: red;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red;
+} */
+
+
+
+
+/* footer text color */
+.widget-area {
+	  color: black;
+}
+
+/* footer color */
+.widget-area .wp-block-latest-posts > li > a {
+	color: black;
+}
+/* footer color */
+.widget-area .wp-block-archives > li > a {
+	color: black;
+}
+/* footer color */
+.widget-area .wp-block-categories > li > a {
+	color: black;
+}
+
+.entry-footer {
+	color: black;
+}
